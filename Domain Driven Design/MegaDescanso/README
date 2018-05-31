@@ -1,3 +1,15 @@
+/* SOBRE O PROJETO */
+ - O projeto MegaDescanso.ASTAH está com as classes montada pelo programa ASTAH, tem o relacionamento, 
+as heranças montadas e TODAS as Classes, sem nenhum método, só observem a Classe Funcionario com relação a Classe Medico, 
+eu montei a Herança do melhor jeito que eu achei que ficasse.
+
+ - O projeto MegaDescanso.ZIP é onde está o projeto para o Eclipse que você pode importar para a sua WorkSpace,
+ Tem todas as classes montadas assim como as Heranças e os Métodos, as validações falta apenas do Slide 8 e falta criar a classe TESTE.
+
+/* // ======= // ======= // ======= // ======= // ======= // ======= // ======= // ======= // ======= // ======= // ======= // =======  */
+
+/* IMPORTANDO O PROJETO PARA O ECLIPSE */
+
 Para poder importa os projetos para a sua WorkSpace através do Eclipse siga as Etapas abaixo:
 
 1. Extraia o arquivo compactado que você baixou
