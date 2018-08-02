@@ -1,0 +1,242 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, sans-serif;
+	font-weight: 300;
+	border: 0;
+}
+
+/*Textos*/
+.text-center{
+	text-align: center;
+}
+.text-justify{
+	text-align: justify;
+	text-indent: 15px;
+}
+
+
+.container{
+	width: 100%;
+}
+
+
+.header_menu{
+	width: 100%;
+	background-color: #1edddd;
+	color: #fff;
+	margin-bottom: 10px;
+	height: 150px;
+}
+
+.title-menu{
+	font-size: 40px;
+	color: #fff;
+	font-weight: bolder;
+}
+
+.corpo{
+	width: 60%;
+	padding: 15px;
+	float: left;
+}
+
+.aside{
+	float: left;
+	width: 30%;
+	padding: 20px;
+	margin-left: 2.5656%;
+	border: 1px solid #000; 
+}
+
+.list-group{
+	list-style-type: none;
+}
+
+.list-group-item{
+	text-decoration: none;
+}
+
+
+.header_nav{
+	width: 100%;
+	position: relative;
+	background-color: rgba(0,0,0,.3);
+	text-align: center;
+	margin-top: 10px;
+}
+.list-nav-group{
+	text-decoration: none;
+	margin-top: 50px;
+}
+.list-nav-item{
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.list-nav-link-item{
+	text-decoration: none;	
+	color: #000;
+}
+
+.list-nav-link-item:hover{
+	transition: .4s color;
+	color: #fff;
+}
+
+.list-nav-link-item:active{
+	transition: .4s color;
+	color: #fff;
+}
+
+.form-contato{
+	width: 50%;
+	margin-left: 25%;
+	padding: 15px;
+	margin-top: 10px;
+	height: 350px;
+	background-color: #ccc;
+}
+.input-group{
+	padding: 10px;
+}
+.label-form{
+	width: 100%;
+	display: block;
+}
+
+.form-input{
+	width: 50%;
+	padding: 5px;
+	margin-top: 5px;
+}
+.form-textarea{
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 50px;
+	max-height: 50px;
+	margin-top: 5px;
+}
+
+.btn-form{
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+}
+.btn-form:hover{
+	background-color: rgba(85, 105, 91, 0.41);;
+	color: #fff;
+}
+
+.btn-form:active{
+	background-color: rgba(10,10,255,.5);
+	color: #fff;
+}
+
+.section-table{
+	margin-bottom: 20px;
+}
+
+.section-table table {
+    text-transform: uppercase;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin: 0 auto;
+    color: #595c62;
+    font-size: 20px;
+    font-family: 'verdana';
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.section-table table .top td, .section-table table .dados:last-of-type td{
+	border-bottom: 2px solid #595c62;
+}
+.section-table table td{
+	border-left: 2px solid #595c62;
+	padding:1em;
+}
+.section-table table td:first-of-type{
+	border-left: none;
+}
+
+.title-table{
+	font-size: 25px;
+}
+
+.divider{
+	color: #000;
+	background-color: #000;
+	height: 1px;
+	width: 80%;
+	margin: 10px auto;
+}
+
+.bio-content{
+	width: 100%;
+	padding: 15px;
+	border: 1px solid #000;
+}
+
+.bio-image{
+	width: 30%;
+}
+.bio-description{
+	width: 70%;
+}
+.bio-title{
+	padding: 10px;
+	background-color: #ccc;
+	width: 20%;
+	text-align:center;
+}
+.bio-description .list-group-item{
+	padding: 5px;
+}
+
+
+
+/* FORMULARIO */
+
+.formulario{
+	width: 50%;
+	padding: 10px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.input{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-indent: 15px;
+}
+
+.btn_form{
+	background-color: #3AE;
+	padding: 10px; 
+	width: 100%;
+	color: white;
+	border: 1px solid #3AE;
+}
+
+.btn_form:active{
+	background-color: #1E9;
+	color: white;
+}
+
+
+
+/* Estilo para o javascript */
+
+
+.imc_baixo{
+	background-color: #F1F273;
+}	
+.imc_alto{
+	background-color: #E94A4A;
+	color: white;
+}
