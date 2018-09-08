@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="01DD1890-7785-DB21-6691-02C5FF85FDBB" mainViewID="52DBEC8B-D2E6-FE3D-B6FA-C6EBE6BEE0F6">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:14:18 UTC</createdTime>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

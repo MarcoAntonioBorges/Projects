@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCD919F1-D4E1-B3B7-297C-57011803448F" name="T_SPM_USUARIO">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>DB1D6902-A8B5-DBF5-2B1A-19D81A6BE274</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_usuario" id="E842BD90-6921-35F9-6489-580B31641856">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>7718ABAF-6259-FA8E-55D8-30666340DD24</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_login" id="27328601-9E98-6377-9920-F8DC1EC3AB12">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>30DD898D-9204-E452-1405-177EC030DFF5</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_senha" id="DED63093-2C03-28CF-7D6D-D0889A60EBEB">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>245C8E7E-870E-D17E-CBFE-E3C8581544C4</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_completo" id="F8CCC344-460B-455A-E8B5-7DCC7C6D4FAA">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>1332B26B-EBF6-8F83-22B7-470AA7E62936</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D2FC1D4-9FA6-0100-F501-B161D4946302" name="PK_SPM_USUARIO">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>E846F500-A44B-8591-58AD-E57AC31931CB</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E842BD90-6921-35F9-6489-580B31641856"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

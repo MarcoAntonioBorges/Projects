@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A68F5472-2EBC-B843-8480-AC8BD99826FD" containerWithKeyObject="7C24525E-B47E-BB9C-7540-136F5BC38F4A" localFKIndex="152ED54C-FDF1-0055-CE5C-FDBCE70302F0" name="FK_SPM_MOCHILAO_USUARIO">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>7C3BF2B2-5C83-6242-720A-8A0AB51DF7AB</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<referredTableLongName>T_SPM_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCD919F1-D4E1-B3B7-297C-57011803448F</referredTableID>
+<keyObject>1D2FC1D4-9FA6-0100-F501-B161D4946302</keyObject>
+<referredKeyID>1D2FC1D4-9FA6-0100-F501-B161D4946302</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

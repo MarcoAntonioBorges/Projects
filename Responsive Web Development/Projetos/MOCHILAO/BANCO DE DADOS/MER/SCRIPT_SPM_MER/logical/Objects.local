@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="7DC13B2B-28EE-EB1F-215C-2A44B344220F" name="T_SPM_DESTINO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="01DD1890-7785-DB21-6691-02C5FF85FDBB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="E981288E-7148-F744-6F58-509B3E43951F" name="T_SPM_MOCHILAO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="01DD1890-7785-DB21-6691-02C5FF85FDBB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="DB1D6902-A8B5-DBF5-2B1A-19D81A6BE274" name="T_SPM_USUARIO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="01DD1890-7785-DB21-6691-02C5FF85FDBB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="EF75FE27-26F4-0F9C-F841-7529FBFD0CEB" name="PODE_TER" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="01DD1890-7785-DB21-6691-02C5FF85FDBB" propertySourceId="7DC13B2B-28EE-EB1F-215C-2A44B344220F" propertyTargetId="E981288E-7148-F744-6F58-509B3E43951F"/>
+   <object objectType="Relation" objectID="7C3BF2B2-5C83-6242-720A-8A0AB51DF7AB" name="PODEM_TER" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="01DD1890-7785-DB21-6691-02C5FF85FDBB" propertySourceId="DB1D6902-A8B5-DBF5-2B1A-19D81A6BE274" propertyTargetId="E981288E-7148-F744-6F58-509B3E43951F"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

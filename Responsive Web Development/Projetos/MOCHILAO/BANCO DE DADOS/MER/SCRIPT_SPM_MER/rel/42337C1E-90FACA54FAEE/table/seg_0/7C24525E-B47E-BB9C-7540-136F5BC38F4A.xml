@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C24525E-B47E-BB9C-7540-136F5BC38F4A" name="T_SPM_MOCHILAO">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>E981288E-7148-F744-6F58-509B3E43951F</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_mochilao" id="78964895-FAF5-B9A0-0425-5410EFA15B4C">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>D0050912-AC4B-C4EE-D52E-AB0AC4D0D22E</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_usuario" id="9E6F9E32-1F78-FB36-C54B-5096B8DDE145">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>BDE9DBA7-5FCC-A707-847D-B37E3AB838C0</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A68F5472-2EBC-B843-8480-AC8BD99826FD" referredColumn="E842BD90-6921-35F9-6489-580B31641856"/>
+</associations>
+</Column>
+<Column name="cd_destino" id="3878F8DB-8A64-816D-65C9-D7B159EFA1F5">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>60F92360-2A34-D277-55BA-F141A111533E</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92FA4167-4AD2-8212-31E3-D2E42FFEDCEE" referredColumn="DCF9E9FB-E98E-09D4-F617-7B6A12AAD345"/>
+</associations>
+</Column>
+<Column name="ds_acessorios" id="92B45D3A-D3AC-ABB0-C18B-FA9B201292DE">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>DE874524-40BE-F77F-F28E-8A9B5BD3BD20</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>600</dataTypeSize>
+<ownDataTypeParameters>600,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_partida" id="8EA418A8-19A2-5EE0-8BB2-B7C5984143C4">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>D8E3B439-8287-5583-2FEB-4D8202D55FA6</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6D2F12A-798C-B4CB-8D54-6C3232001CB9" name="PK_SPM_MOCHILAO">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>CCFAA51E-9FE2-9D59-1B91-5B9D16CE1E48</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78964895-FAF5-B9A0-0425-5410EFA15B4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95FDC03C-9055-090A-A16F-CC1FF74D52AE" name="FK_SPM_MOCHILAO_DESTINO">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>EF75FE27-26F4-0F9C-F841-7529FBFD0CEB</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3878F8DB-8A64-816D-65C9-D7B159EFA1F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="152ED54C-FDF1-0055-CE5C-FDBCE70302F0" name="FK_SPM_MOCHILAO_USUARIO">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:26:11 UTC</createdTime>
+<generatorID>7C3BF2B2-5C83-6242-720A-8A0AB51DF7AB</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E6F9E32-1F78-FB36-C54B-5096B8DDE145"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PODE_TER" directorySegmentName="seg_0" id="EF75FE27-26F4-0F9C-F841-7529FBFD0CEB">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:19:44 UTC</createdTime>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<engineerTo>
+<item key="42337C1E-EBA5-1B3F-CBDA-90FACA54FAEE" value="true"/>
+</engineerTo>
+<sourcePk>B0F54EFA-37A8-0F64-E56D-B4E49919C2A8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7DC13B2B-28EE-EB1F-215C-2A44B344220F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E981288E-7148-F744-6F58-509B3E43951F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

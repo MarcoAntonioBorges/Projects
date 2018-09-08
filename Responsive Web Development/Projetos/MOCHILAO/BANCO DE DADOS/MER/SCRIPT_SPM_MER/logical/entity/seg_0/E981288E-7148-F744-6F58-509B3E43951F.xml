@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E981288E-7148-F744-6F58-509B3E43951F" name="T_SPM_MOCHILAO">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:17:31 UTC</createdTime>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<engineerTo>
+<item key="42337C1E-EBA5-1B3F-CBDA-90FACA54FAEE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_mochilao" id="D0050912-AC4B-C4EE-D52E-AB0AC4D0D22E">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:17:45 UTC</createdTime>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<engineerTo>
+<item key="42337C1E-EBA5-1B3F-CBDA-90FACA54FAEE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="BDE9DBA7-5FCC-A707-847D-B37E3AB838C0">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:21:11 UTC</createdTime>
+<generatorID>7C3BF2B2-5C83-6242-720A-8A0AB51DF7AB</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<engineerTo>
+<item key="42337C1E-EBA5-1B3F-CBDA-90FACA54FAEE" value="true"/>
+</engineerTo>
+<referedAttribute>7718ABAF-6259-FA8E-55D8-30666340DD24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_destino" id="60F92360-2A34-D277-55BA-F141A111533E">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:19:44 UTC</createdTime>
+<generatorID>EF75FE27-26F4-0F9C-F841-7529FBFD0CEB</generatorID>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<engineerTo>
+<item key="42337C1E-EBA5-1B3F-CBDA-90FACA54FAEE" value="true"/>
+</engineerTo>
+<referedAttribute>9BBA9404-D846-EC94-23CF-0CF428714E98</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_acessorios" id="DE874524-40BE-F77F-F28E-8A9B5BD3BD20">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:17:53 UTC</createdTime>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<engineerTo>
+<item key="42337C1E-EBA5-1B3F-CBDA-90FACA54FAEE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>600</dataTypeSize>
+<ownDataTypeParameters>600,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_partida" id="D8E3B439-8287-5583-2FEB-4D8202D55FA6">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:18:36 UTC</createdTime>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<engineerTo>
+<item key="42337C1E-EBA5-1B3F-CBDA-90FACA54FAEE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CCFAA51E-9FE2-9D59-1B91-5B9D16CE1E48" name="T_SPM_MOCHILAO PK">
+<createdBy>T-Gamer</createdBy>
+<createdTime>2018-09-08 02:19:02 UTC</createdTime>
+<ownerDesignName>SCRIPT_SPM_MER</ownerDesignName>
+<engineerTo>
+<item key="42337C1E-EBA5-1B3F-CBDA-90FACA54FAEE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0050912-AC4B-C4EE-D52E-AB0AC4D0D22E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
